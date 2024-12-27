@@ -22,6 +22,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          async
+          src="https://cdn.seline.so/seline.js"
+          data-token="234d5e415da92b3"
+        ></script>
+      </head>
       <body className={`${manrope.className} antialiased`}>
         <div className="absolute top-2 mr-2 mt-2 right-2">
           <Link
