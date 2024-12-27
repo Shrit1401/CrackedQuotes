@@ -34,7 +34,7 @@ const Home = () => {
         throw new Error("Failed to fetch quote");
       const data = await (response as Response).json();
       setQuote(data);
-    } catch (err) {
+    } catch {
       setError("Failed to load quote. Please try again.");
     } finally {
       setIsLoading(false);
